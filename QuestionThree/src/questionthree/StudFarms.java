@@ -2,11 +2,12 @@
 package questionthree;
 
 public class StudFarms {
-   private int horse, horseshoe;
+   private int horse, horseshoe, paws;
 
-    public StudFarms(int horse, int horseshoe) {
-        this.horse = horse;
-        this.horseshoe = horseshoe;
+    public StudFarms(int horse, int horseshoe, int paws) {
+        this.horse = 00;
+        this.horseshoe = 00;
+        this.paws   = 4;
     }
 
     public int getHorse() {
@@ -23,6 +24,14 @@ public class StudFarms {
 
     public void setHorseshoe(int horseshoe) {
         this.horseshoe = horseshoe;
+    }
+    
+    public int getPaws(){
+        return paws;
+        }
+    
+    public void setPaws(int paws) {
+        this.paws = paws;
     }
     public void result(){
         System.out.println("O numero de ferraduras para os novos cavalos são:\n" + this.horseshoe + " ferraduras");
