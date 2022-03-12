@@ -10,10 +10,7 @@ public class QuestionThree {
         System.out.println("Digite a quantidade de cavalos que foram comprados pelo seu haras:");
         h1.horse = horse.nextInt();
         h1.horseshoe = (h1.horse * 4);
-        System.out.println("O numero de ferraduras para os novos cavalos são:\n" + h1.horseshoe);
-        
-        
-        
+        System.out.println("O numero de ferraduras para os novos cavalos são:\n" + h1.horseshoe + " ferraduras");
 
     }
 }
