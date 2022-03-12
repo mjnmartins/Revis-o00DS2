@@ -24,6 +24,8 @@ public class StudFarms {
     public void setHorseshoe(int horseshoe) {
         this.horseshoe = horseshoe;
     }
-   
+    public void result(){
+        System.out.println("O numero de ferraduras para os novos cavalos são:\n" + this.horseshoe + " ferraduras");
+    }
     
 }
