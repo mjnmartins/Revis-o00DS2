@@ -1,5 +1,8 @@
 
 package questionone;
+
+import java.util.Scanner;
+
 /**
  * Construa uma classe que solicite uma frase escrita pelo usuário. 
  * Peça ao usuário para escolher uma palavra da frase escrita e substituí-la por outra palavra.
@@ -13,7 +16,9 @@ public class QuestionOne {
 
     
     public static void main(String[] args) {
-       
+       Scanner keyboard = new Scanner(System.in);  
+
+
     }
     
 }
