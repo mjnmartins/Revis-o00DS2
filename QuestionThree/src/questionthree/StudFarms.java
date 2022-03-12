@@ -1,12 +1,9 @@
-
 package questionthree;
 
-
 public class StudFarms {
-    int horse;
-    int horseshoe;
-    int paws;
-    
-           
-    
+
+    private int horse;
+    private int horseshoe;
+    private int paws;
+
 }
