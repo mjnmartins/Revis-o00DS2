@@ -2,7 +2,7 @@ package questionone;
 
 public class ExchangeWords {
 
-    String phrase;
+    protected String phrase;
 
     public ExchangeWords() {
         this.phrase = "";
