@@ -24,7 +24,8 @@ public class QuestionTwo {
         System.out.println("Digite o comprimento do terreno:");
         g1.setLength(keyboard.nextFloat());
         System.out.println("Digite a altura do terreno:");
-        g1.setH
+        g1.setHeight(keyboard.nextFloat());
+        System.out.println(g1.getHeight());
         
         
     }
