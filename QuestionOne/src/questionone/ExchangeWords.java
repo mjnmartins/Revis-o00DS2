@@ -2,12 +2,12 @@ package questionone;
 
 public class ExchangeWords {
 
-    private String phrase;
-    private String word;
+    String phrase;
+    // private String word;
 
     public ExchangeWords() {
         this.phrase = "";
-        this.word = "";
+        //   this.word = "";
     }
 
     public String getPhrase() {
@@ -18,12 +18,10 @@ public class ExchangeWords {
         this.phrase = phrase;
     }
 
-    public String getWord() {
-        return word;
-    }
-
-    public void setWord(String word) {
-        this.word = word;
-    }
-
+    // public String getWord() {
+    //    return word;
+    // }
+    //public void setWord(String word) {
+    //  this.word = word;
+    //  }
 }

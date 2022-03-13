@@ -1,9 +1,7 @@
 
 package questionone;
 
-import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Set;
 
 /**
  * Construa uma classe que solicite uma frase escrita pelo usuário. 
@@ -20,10 +18,14 @@ public class QuestionOne {
     public static void main(String[] args) {
        Scanner keyboard = new Scanner(System.in);  
        ExchangeWords ew = new ExchangeWords();
-       System.out.println("Digete uma frase:");
+       System.out.println("Digite uma frase:");
        ew.setPhrase(keyboard.nextLine());
-       // System.out.println(ew.getPhrase());
-        
+       System.out.println("A fraseque você digitou foi :\n" + ew.getPhrase());
+       System.out.println("Digite a palavra que quer trocar, e logo apos digite a nova palavra");
+       ew.phrase = ew.phrase.replace(keyboard.nextLine(),keyboard.nextLine());
+       System.out.println(ew.phrase);
+       
+         
         
        
         
