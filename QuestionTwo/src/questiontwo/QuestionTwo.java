@@ -1,9 +1,7 @@
 
 package questiontwo;
 
-import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Set;
 
 /**
  * Uma imobiliária vende apenas terrenos retangulares. 
