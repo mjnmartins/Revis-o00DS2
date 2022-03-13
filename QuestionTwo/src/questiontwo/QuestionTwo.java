@@ -26,7 +26,7 @@ public class QuestionTwo {
         System.out.println("Digite a altura do terreno:");
         g1.setHeight(keyboard.nextFloat());
         g1.setResult(g1.getLength() * g1.getHeight());
-        System.out.println("As dimensões do terreno são: " + g1.getResult());
+        System.out.println("A area do terreno é: " + g1.getResult());
         
         
     }
