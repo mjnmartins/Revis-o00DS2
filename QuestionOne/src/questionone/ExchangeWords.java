@@ -3,11 +3,10 @@ package questionone;
 public class ExchangeWords {
 
     String phrase;
-    // private String word;
 
     public ExchangeWords() {
         this.phrase = "";
-        //   this.word = "";
+
     }
 
     public String getPhrase() {
@@ -17,11 +16,4 @@ public class ExchangeWords {
     public void setPhrase(String phrase) {
         this.phrase = phrase;
     }
-
-    // public String getWord() {
-    //    return word;
-    // }
-    //public void setWord(String word) {
-    //  this.word = word;
-    //  }
 }
